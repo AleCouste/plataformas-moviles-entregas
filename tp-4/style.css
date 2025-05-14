@@ -1,0 +1,79 @@
+@media (min-width: 400px) {    
+    html {
+        body {
+            background-color: rgb(40, 60, 80);
+        }
+    }
+}
+
+@media (max-width: 800px) {    
+    h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 899px) {
+    html {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+    body {
+        img {
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        article {
+            max-width: 50ch;
+        }
+    }
+}
+
+@media (max-width: 200px) {    
+    h1 {
+        background-color: darkmagenta;
+    }
+}
+
+@media print {
+    html {
+        body {
+            font-family: serif;
+        }
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+        body {
+            color: #111;
+            background-color: #DDD;
+        }
+    }
+}
+
+@media (hover:none) {
+    body {
+        a {
+            background-color: #212;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+    }
+}
+
+@media (resolution: 2dppx) {
+    body {
+        article {
+            background-color: #667;
+        }
+    }
+}
